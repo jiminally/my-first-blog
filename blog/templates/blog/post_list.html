@@ -11,7 +11,7 @@
             
             <!-- 이미지 추가 -->
             {% if post.image %}
-                <img src="{{ post.image.url }}" class="rounded blog-image-list" alt="{{ post.title }}">
+                <img src="{{ post.image.url }}" class="rounded blog-image-list" style="max-width: 400px; height: auto; display: block; margin: 10px auto;">
             {% endif %}
         </div>
     {% endfor %}
